@@ -15,7 +15,7 @@ shinyUI(fluidPage(
           helpText("Analyse Water Quality of River Ganga (State wise)"),
           selectInput("var", 
                       label = "Choose an state",
-                      choices = c("Maharashtra", "UTTAR PRADESH",
+                      choices = c("Uttar pradesh", "UTTAR PRADESH",
                                   "BIHAR", "WEST BENGAL"),
                       selected = "UTTARANCHAL"),
           helpText("On based of the state selected we'll populate a table on right hand side with crucial parameters of the water of Ganga River and below the data table we'll make a plot of Coliform bacteria in different states on based of water sample")),
